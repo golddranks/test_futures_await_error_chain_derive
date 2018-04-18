@@ -51,11 +51,10 @@ dependencies = [
 [[package]]
 name = "dotenv"
 version = "0.11.0"
-source = "git+https://github.com/purpliminal/rust-dotenv.git#3f744d9d10e2777e5e3a00e95644f43a9387d606"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "derive-error-chain 0.11.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "error-chain 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "lazy_static 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "regex 0.2.10 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
@@ -75,17 +74,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 [[package]]
 name = "futures-await"
 version = "0.1.1"
-source = "git+https://github.com/alexcrichton/futures-await.git#887d62007cf00629953b4ddc6b7639a99f94e0ad"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "futures 0.1.21 (registry+https://github.com/rust-lang/crates.io-index)",
- "futures-await-async-macro 0.1.2 (git+https://github.com/alexcrichton/futures-await.git)",
- "futures-await-await-macro 0.1.1 (git+https://github.com/alexcrichton/futures-await.git)",
+ "futures-await-async-macro 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
+ "futures-await-await-macro 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "futures-await-async-macro"
 version = "0.1.2"
-source = "git+https://github.com/alexcrichton/futures-await.git#887d62007cf00629953b4ddc6b7639a99f94e0ad"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "proc-macro2 0.3.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "quote 0.5.1 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -95,7 +94,7 @@ dependencies = [
 [[package]]
 name = "futures-await-await-macro"
 version = "0.1.1"
-source = "git+https://github.com/alexcrichton/futures-await.git#887d62007cf00629953b4ddc6b7639a99f94e0ad"
+source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "lazy_static"
@@ -178,8 +177,8 @@ dependencies = [
 name = "test_dotenv"
 version = "0.1.0"
 dependencies = [
- "dotenv 0.11.0 (git+https://github.com/purpliminal/rust-dotenv.git)",
- "futures-await 0.1.1 (git+https://github.com/alexcrichton/futures-await.git)",
+ "dotenv 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "futures-await 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -245,12 +244,12 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum cc 1.0.10 (registry+https://github.com/rust-lang/crates.io-index)" = "8b9d2900f78631a5876dc5d6c9033ede027253efcd33dd36b1309fc6cab97ee0"
 "checksum cfg-if 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "d4c819a1287eb618df47cc647173c5c4c66ba19d888a6e50d605672aed3140de"
 "checksum derive-error-chain 0.11.1 (registry+https://github.com/rust-lang/crates.io-index)" = "cb4450afbe280461e78299b39182a085b70e3e71be049cf4a588ad72f1e44d33"
-"checksum dotenv 0.11.0 (git+https://github.com/purpliminal/rust-dotenv.git)" = "<none>"
+"checksum dotenv 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)" = "a70de3c590ce18df70743cace1cf12565637a0b26fd8b04ef10c7d33fdc66cdc"
 "checksum error-chain 0.11.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ff511d5dc435d703f4971bc399647c9bc38e20cb41452e3b9feb4765419ed3f3"
 "checksum futures 0.1.21 (registry+https://github.com/rust-lang/crates.io-index)" = "1a70b146671de62ec8c8ed572219ca5d594d9b06c0b364d5e67b722fc559b48c"
-"checksum futures-await 0.1.1 (git+https://github.com/alexcrichton/futures-await.git)" = "<none>"
-"checksum futures-await-async-macro 0.1.2 (git+https://github.com/alexcrichton/futures-await.git)" = "<none>"
-"checksum futures-await-await-macro 0.1.1 (git+https://github.com/alexcrichton/futures-await.git)" = "<none>"
+"checksum futures-await 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "d76972f0c250aadc9c3e521023e769b097f838a2d9a71e5139c4fdf0c7657463"
+"checksum futures-await-async-macro 0.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "b87fb829586e3c016c89246ae45977ceabdf8ea13047bd1e579425b6158f19b0"
+"checksum futures-await-await-macro 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "f3b8bd34e4f4d1bf0e3fe3f22ad22475429f594221472216e34b942f912ec4a4"
 "checksum lazy_static 1.0.0 (registry+https://github.com/rust-lang/crates.io-index)" = "c8f31047daa365f19be14b47c29df4f7c3b581832407daabe6ae77397619237d"
 "checksum libc 0.2.40 (registry+https://github.com/rust-lang/crates.io-index)" = "6fd41f331ac7c5b8ac259b8bf82c75c0fb2e469bbf37d2becbba9a6a2221965b"
 "checksum memchr 2.0.1 (registry+https://github.com/rust-lang/crates.io-index)" = "796fba70e76612589ed2ce7f45282f5af869e0fdd7cc6199fa1aa1f1d591ba9d"
