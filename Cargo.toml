@@ -1,0 +1,8 @@
+[package]
+name = "test_dotenv"
+version = "0.1.0"
+authors = ["Kontio Pyry <kontio@r.recruit.co.jp>"]
+
+[dependencies]
+dotenv = { git = "https://github.com/purpliminal/rust-dotenv.git" }
+futures-await = { git = "https://github.com/alexcrichton/futures-await.git" }
